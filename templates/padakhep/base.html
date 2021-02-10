@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+<head>
+  <!-- Title -->
+  <title >Padakhep Manabik Unnayan Kendra || A Centre for Sustained Human Development</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{% static 'assets/img/logo/logo.gif' %}">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="{% static 'assets/vendor/bootstrap/bootstrap.min.css' %}">
+  <!-- CSS Global Icons -->
+  <link rel="stylesheet" href="{% static 'assets/vendor/icon-awesome/css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/icon-line/css/simple-line-icons.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/icon-etlinefont/style.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/icon-line-pro/style.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/icon-hs/style.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/dzsparallaxer/dzsparallaxer.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/dzsparallaxer/dzsscroller/scroller.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/dzsparallaxer/advancedscroller/plugin.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/fancybox/jquery.fancybox.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/slick-carousel/slick/slick.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/typedjs/typed.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/hs-megamenu/src/hs.megamenu.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/hamburgers/hamburgers.min.css' %}">
+
+  <!-- CSS Unify -->
+  <link rel="stylesheet" href="{% static 'assets/css/unify-core.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/unify-components.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/unify-globals.css' %}">
+
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="{% static 'assets/css/custom.css' %}">
+</head>
+
+<body>
+<header id="js-header" class="u-header u-header--static">
+      <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
+        <nav class="js-mega-menu navbar navbar-expand-lg">
+          <div class="container">
+            <!-- Responsive Toggle Button -->
+            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+              <span class="hamburger hamburger--slider">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+              </span>
+              </span>
+            </button>
+
+            <a href="#" class="navbar-brand">
+                <div class="row">
+                                            <div class="col-md-2"><img src="{% static 'assets/img/logo/logo.gif' %}" height="50px" margin="left" alt="Image Description"> </div>
+                                            <div class="col-md-10 logo-title">
+                                                <h5 class="">Padakhep Manabik Unnayan Kendra</h5>
+                                                <h6 class="">A Centre for Sustained Human Development</h6>
+                                            </div>
+                                        </div>
+            </a>
+            <!-- End Logo -->
+
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
+              <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+                <!-- Intro
+                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                  <a href="https://htmlstream.com/preview/unify-v2.2/index.html" class="nav-link g-py-7 g-px-0">Intro</a>
+                </li>
+                 End Intro -->
+
+                <!-- Home -->
+                <li class="hs-has-mega-menu nav-item active g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="left">
+                    <a id="mega-menu-home" class="nav-link g-py-7 g-px-0" href="index.php" aria-haspopup="true" aria-expanded="false">Home
+                    </a>
+                </li>
+                <!-- End Home -->
+
+                <!-- Pages -->
+                <li class="hs-has-sub-menu nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">About Us</a>
+
+                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages">
+                    <!-- Pages - About -->
+                    <li class="dropdown-item hs-has-sub-menu ">
+                      <a id="nav-link--pages--about" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--about">Padakhep</a>
+
+                      <!-- Submenu (level 2) -->
+                      <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--pages--about" aria-labelledby="nav-link--pages--about">
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="p_vission_mission_goal.php">Vission,Mission & Goal</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="development_approach_strategy.php">Development Approach and Strategy</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="legal_status.php">Legal Status</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Partnership and Networking</a>
+                        </li>
+
+                        <li class="dropdown-divider"></li>
+
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="management.php">Management Structure</a>
+                        </li>
+                      </ul>
+                      <!-- End Submenu (level 2) -->
+                    </li>
+                    <!-- End Pages - About -->
+
+
+                    <!-- Pages - Profiles -->
+                    <li class="dropdown-item hs-has-sub-menu ">
+                      <a id="nav-link--pages--profile" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--profile">Divisions</a>
+
+                      <!-- Submenu (level 2) -->
+                      <ul class="hs-sub-menu list-unstyled u-shadow-v11 u-dropdown-col-2 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--pages--profile" aria-labelledby="nav-link--pages--profile">
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Micro Finance Wing</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">MIS and Reporting</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Human Resource and Admin </a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Publication and Library</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Finance and Accounts</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Logistics Support Unit</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">ICT Division</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Audit Division</a>
+                        </li>
+
+                      </ul>
+                      <!-- End Submenu (level 2) -->
+                    </li>
+                    <!-- End Pages - Profiles -->
+
+                    <!-- Pages - Сontacts -->
+                    <li class="dropdown-item hs-has-sub-menu ">
+                      <a id="nav-link--pages--contacts" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--contacts">Organiztional</a>
+
+                      <!-- Submenu (level 2) -->
+                      <ul class="hs-sub-menu list-unstyled u-shadow-v11 u-dropdown-col-2 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--pages--contacts" aria-labelledby="nav-link--pages--contacts">
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Organization management</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="jpg/Organogram.jpg">Organogram</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="executive_commitee.php">Executive Commitee</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Executive Director</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Audit General Meeting</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Audit commettee</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Monitoring commettee</a>
+                        </li>
+                      </ul>
+                      <!-- End Submenu (level 2) -->
+                    </li>
+                    <!-- End Pages - Сontacts -->
+
+
+
+                    <!-- Pages - Pricing -->
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="#">Working Experience</a>
+                    </li>
+                    <!-- End Pages - Pricing -->
+
+                    <!-- End Pages - Others -->
+                  </ul>
+                </li>
+                <!-- End Pages -->
+
+                <!-- Blog -->
+                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link--blog" class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--blog">Major Program</a>
+
+                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu--blog" aria-labelledby="nav-link--blog">
+                    <!-- Blog - Minimal -->
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="micro_finance_program.php">Micro Finance</a>
+                    </li>
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="training.php">Training</a>
+                    </li>
+                     <li class="dropdown-item ">
+                        <a class="nav-link" href="Micro.php">HIV/AIDS Prevention</a>
+                    </li>
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="Micro.php">Agriculture and Environment</a>
+                    </li>
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="health.php">Health, Nutrition and Sanitation</a>
+                    </li>
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="Micro.php">Child Education and Development</a>
+                    </li>
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="Micro.php">Research, Publication and Documentation</a>
+                    </li>
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="Micro.php">Risk and Disaster Management</a>
+                    </li>
+
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="Micro.php">Renewable Energy</a>
+                    </li>
+
+                    <!-- End Blog - Single items -->
+                  </ul>
+                </li>
+                <!-- End Blog -->
+
+                <!-- Features -->
+                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link--features" class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features">Features</a>
+
+                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+                    <!-- Features - Headers -->
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="E-news.php">E-news</a>
+                    </li>
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="Career.php">Career</a>
+                    </li>
+                    <!-- End Features - Headers -->
+
+                    <!-- Features - Promo blocks -->
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="https://mail.padakhep.org">Webmail</a>
+                    </li>
+                    <!-- End Features - Promo blocks -->
+
+                    <!-- Features - Sliders -->
+                    <li class="dropdown-item hs-has-sub-menu ">
+                      <a id="nav-link--features--sliders" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features--sliders">Report</a>
+
+                      <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--features--sliders" aria-labelledby="nav-link--features--sliders">
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="pdf/Annual_Report_15_16_1.pdf">Annual Report</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a class="nav-link" href="pdf/brochure_1.pdf">Brochure</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Notice</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Customize Software</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- End Features - Sliders -->
+                    <li class="dropdown-item ">
+                        <a class="nav-link" href="#">Success Story</a>
+                    </li>
+                    <!-- Features - Pop-ups -->
+                    <li class="dropdown-item hs-has-sub-menu ">
+                      <a id="nav-link--features--pop-ups" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features--pop-ups">Pop-ups</a>
+
+                      <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--features--pop-ups" aria-labelledby="nav-link--features--pop-ups">
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Recognitions</a>
+                        </li>
+                        <li class="dropdown-item ">
+                          <a class="nav-link" href="#">Advertisement</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- End Features - Pop-ups -->
+
+                    <!-- End Features - Footers -->
+                  </ul>
+                </li>
+                <!-- End Features -->
+
+                <!-- Shortcodes -->
+                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                    <a href="gallery.php" class="nav-link g-py-7 g-px-0">Gallery</a>
+                </li>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+	<div class="u-outer-spaces-helper"></div>
+
+
+  <!-- JS Global Compulsory -->
+  <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/jquery-migrate/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/jquery.easing/js/jquery.easing.js' %}"></script>
+  <script src="{% static 'assets/vendor/popper.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/bootstrap.min.js' %}"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="{% static 'assets/vendor/hs-megamenu/src/hs.megamenu.js' %}"></script>
+  <script src="{% static 'assets/vendor/dzsparallaxer/dzsparallaxer.js' %}"></script>
+  <script src="{% static 'assets/vendor/dzsparallaxer/dzsscroller/scroller.js' %}"></script>
+  <script src="{% static 'assets/vendor/dzsparallaxer/advancedscroller/plugin.js' %}"></script>
+  <script src="{% static 'assets/vendor/fancybox/jquery.fancybox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/slick-carousel/slick/slick.js' %}"></script>
+  <script src="{% static 'assets/vendor/typedjs/typed.min.js' %}"></script>
+
+  <!-- JS Unify -->
+  <script src="{% static 'assets/js/hs.core.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.header.js' %}"></script>
+  <script src="{% static 'assets/js/helpers/hs.hamburgers.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.tabs.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.popup.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.carousel.js' %}"></script>
+  <script src="{% static 'assets/js/components/text-animation/hs.text-slideshow.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.go-to.js' %}"></script>
+
+  <!-- JS Customization -->
+  <script src="{% static '' %}assets/js/custom.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+        // initialization of carousel
+        $.HSCore.components.HSCarousel.init('.js-carousel');
+
+        // initialization of tabs
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+        // initialization of popups
+        $.HSCore.components.HSPopup.init('.js-fancybox');
+
+        // initialization of go to
+        $.HSCore.components.HSGoTo.init('.js-go-to');
+
+        // initialization of text animation (typing)
+        $(".u-text-animation.u-text-animation--typing").typed({
+          strings: [
+            "activities to the pocket areas of poverty such as haor, baor, hill tracts, char, tribal, coastal belt and monga-affected areas.",
+            "operating its development activities all over the country through 13 Zonal Offices, 52 Area Offices and 250 Branch/Project Offices.",
+            "a national NGO has relentlessly marched forward successfully overcoming many hurdles and is currently working all over the country."
+          ],
+          typeSpeed: 60,
+          loop: true,
+          backDelay: 1500
+        });
+      });
+
+      $(window).on('load', function () {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#js-header'));
+        $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+        // initialization of HSMegaMenu component
+        $('.js-mega-menu').HSMegaMenu({
+          event: 'hover',
+          pageContainer: $('.container'),
+          breakpoint: 991
+        });
+      });
+
+      $(window).on('resize', function () {
+        setTimeout(function () {
+          $.HSCore.components.HSTabs.init('[role="tablist"]');
+        }, 200);
+      });
+  </script>
+
+
+  <div id="resolutionCaution" class="text-left g-max-width-600 g-bg-white g-pa-20" style="display: none;">
+    <button type="button" class="close" onclick="Custombox.modal.close();">
+      <i class="hs-icon hs-icon-close"></i>
+    </button>
+    <h4 class="g-mb-20">Screen resolution less than 1400px</h4>
+  </div>
+
+  <div id="copyModal" class="text-left modal-demo g-bg-white g-color-black g-pa-20" style="display: none;"></div>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/chosen/chosen.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/prism/themes/prism.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/custombox/custombox.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/style-switcher/vendor/spectrum/spectrum.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/style-switcher/vendor/spectrum/themes/sp-dark.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/style-switcher/style-switcher.css' %}">
+  <!-- End CSS -->
+
+  <!-- Scripts -->
+  <script src="{% static 'assets/vendor/chosen/chosen.jquery.js' %}"></script>
+  <script src="{% static 'assets/vendor/image-select/src/ImageSelect.jquery.js' %}"></script>
+  <script src="{% static 'assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/custombox/custombox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/clipboard/dist/clipboard.min.js' %}"></script>
+
+  <!-- Prism -->
+  <script src="{% static 'assets/vendor/prism/prism.js' %}"></script>
+  <script src="{% static 'assets/vendor/prism/components/prism-markup.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/prism/components/prism-css.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/prism/components/prism-clike.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/prism/components/prism-javascript.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/prism/plugins/toolbar/prism-toolbar.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/prism/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js' %}"></script>
+  <!-- End Prism -->
+
+  <script src="{% static 'assets/js/components/hs.scrollbar.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.select.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.modal-window.js' %}"></script>
+  <script src="{% static 'assets/js/components/hs.markup-copy.js' %}"></script>
+
+  <script src="{% static 'assets/style-switcher/vendor/cookiejs/jquery.cookie.js' %}"></script>
+  <script src="{% static 'assets/style-switcher/vendor/spectrum/spectrum.js' %}"></script>
+  <script src="{% static 'assets/style-switcher/style-switcher.js' %}"></script>
+</body>
+
+{% block body_block %}
+
+{% endblock%}
+
+
+<div id="contacts-section" class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Our Contacts</h2>
+            </div>
+
+            <address class="g-bg-no-repeat g-font-size-12 mb-0" style="background-image: url(assets/img/maps/map2.png);">
+          <!-- Location -->
+          <div class="d-flex g-mb-20">
+            <div class="g-mr-10">
+              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+                <i class="fa fa-map-marker"></i>
+              </span>
+            </div>
+            <p class="mb-0">House# 548, Road# 10,<br> Baitul Aman Housing Society,Adabar,<br>Mohammadpur,Dhaka-1207,<br>Bangladesh.</p>
+          </div>
+          <!-- End Location -->
+
+          <!-- Phone -->
+          <div class="d-flex g-mb-20">
+            <div class="g-mr-10">
+              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+                <i class="fa fa-phone"></i>
+              </span>
+            </div>
+            <p class="mb-0">PABX 880-2-58151126 <br>  58156925, 9128824 <br> Fax: 880-2-9137361</p>
+          </div>
+          <!-- End Phone -->
+
+          <!-- Email and Website -->
+          <div class="d-flex g-mb-20">
+            <div class="g-mr-10">
+              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+                <i class="fa fa-globe"></i>
+              </span>
+            </div>
+            <p class="mb-0">
+              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:padakhep@padakhep.org">padakhep@padakhep.org</a>
+              <br>
+              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="http://www.padakhep.org/">www.padakhep.org</a>
+            </p>
+          </div>
+          <!-- End Email and Website -->
+        </address>
+          </div>
+          <!-- End Footer Content -->
+
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Latest Posts</h2>
+            </div>
+
+            <article>
+              <h3 class="h6 g-mb-2">
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Incredible template</a>
+          </h3>
+              <div class="small g-color-white-opacity-0_6">May 8, 2017</div>
+            </article>
+
+            <hr class="g-brd-white-opacity-0_1 g-my-10">
+
+            <article>
+              <h3 class="h6 g-mb-2">
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">New features</a>
+          </h3>
+              <div class="small g-color-white-opacity-0_6">June 23, 2017</div>
+            </article>
+
+            <hr class="g-brd-white-opacity-0_1 g-my-10">
+
+            <article>
+              <h3 class="h6 g-mb-2">
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">New terms and conditions</a>
+          </h3>
+              <div class="small g-color-white-opacity-0_6">September 15, 2017</div>
+            </article>
+          </div>
+          <!-- End Footer Content -->
+
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Useful Links</h2>
+            </div>
+
+            <nav class="text-uppercase1">
+              <ul class="list-unstyled g-mt-minus-10 mb-0">
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">About Us</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Portfolio</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Our Services</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Latest Jobs</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                      <a class="g-color-white-opacity-0_8 g-color-white--hover" href="contact.php">Contact Us</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- End Footer Content -->
+
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Padakhep Head Office</h2>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.297503077754!2d90.35255491434886!3d23.772418093853226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0985d123fbd%3A0x2bea1e71cc683c9b!2sPadakhep+Manabik+Unnayan+Kendra!5e0!3m2!1sen!2sbd!4v1503665372481"  frameborder="2" style="border:1px solid #FEB41F; width: 105% ; height: 90%"  allowfullscreen></iframe>
+
+          </div>
+          <!-- End Footer Content -->
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Copyright Footer -->
+    <footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
+            <div class="d-lg-flex">
+              <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2017 © All Rights Reserved.</small>
+<!--              <ul class="u-list-inline">
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Privacy Policy</a>
+                </li>
+                <li class="list-inline-item">
+                  <span>|</span>
+                </li>
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Terms of Use</a>
+                </li>
+                <li class="list-inline-item">
+                  <span>|</span>
+                </li>
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">License</a>
+                </li>
+                <li class="list-inline-item">
+                  <span>|</span>
+                </li>
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Support</a>
+                </li>
+              </ul>-->
+            </div>
+          </div>
+
+          <div class="col-md-4 align-self-center">
+            <ul class="list-inline text-center text-md-right mb-0">
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Skype">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-skype"></i>
+                </a>
+              </li>
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+<!--              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Pinterest">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-pinterest"></i>
+                </a>
+              </li>-->
+<!--              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>-->
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Dribbble">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
+       "bottom": 15,
+       "right": 15
+       }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
+        <i class="hs-icon hs-icon-arrow-top"></i>
+    </a>
+
+    </html>
